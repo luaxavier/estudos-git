@@ -28,3 +28,29 @@ git add .
 ```
 git diff
 ```
+
+#### Registrando e confirmando mudanças
+```
+git commit
+git commit -m "sua-mensagem"
+git commit -am "sua-mensagem"
+git commit --amend -am "sua-mensagem"
+```
+
+#### Listando os remote 
+```
+git remote -v
+```
+
+#### Listando as branch 
+```
+git branch -v
+```
+
+
+#### Enviando as mudanças para o repositorio remoto
+```
+git push 
+git push nome-remote nome-branch
+git push origin main 
+```
